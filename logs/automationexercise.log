@@ -1,0 +1,317 @@
+03/09/2025 11:12:28 PM: INFO: ====== WebDriver manager ======
+03/09/2025 11:12:30 PM: INFO: Get LATEST edgedriver version for Edge 134.0.3124
+03/09/2025 11:12:30 PM: INFO: Get LATEST edgedriver version for Edge 134.0.3124
+03/09/2025 11:12:30 PM: INFO: Driver [C:\Users\HP\.wdm\drivers\edgedriver\win64\134.0.3124.51\msedgedriver.exe] found in cache
+03/09/2025 11:12:32 PM: INFO: ***** Test_002_LoginPage Started *****
+03/09/2025 11:12:35 PM: INFO: ***** User clicked Signup\Login button ***** 
+03/09/2025 11:12:36 PM: INFO: ***** User Entered Email ID ***** 
+03/09/2025 11:12:37 PM: INFO: ***** User Entered Password  ***** 
+03/09/2025 11:12:37 PM: INFO: ***** User clicked Login Button
+03/09/2025 11:13:27 PM: INFO: ====== WebDriver manager ======
+03/09/2025 11:13:28 PM: INFO: Get LATEST chromedriver version for google-chrome
+03/09/2025 11:13:29 PM: INFO: Get LATEST chromedriver version for google-chrome
+03/09/2025 11:13:29 PM: INFO: Driver [C:\Users\HP\.wdm\drivers\chromedriver\win64\134.0.6998.35\chromedriver-win32/chromedriver.exe] found in cache
+03/09/2025 11:13:30 PM: INFO: \U0001f4cc Test Started: Signup Page
+03/09/2025 11:13:35 PM: INFO: \u2705 Clicked Signup/Login
+03/09/2025 11:13:38 PM: INFO: \u2705 Clicked Create Account
+03/09/2025 11:13:40 PM: INFO: \u2705 Account Created Successfully
+03/09/2025 11:13:42 PM: INFO: \U0001f4cc Test Completed: Signup Page
+03/09/2025 11:13:46 PM: WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000029196B8BB20>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/2f6c7ad3bffdeaa95a72f0ea12499fa3
+03/09/2025 11:13:50 PM: WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000029196B8BF40>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/2f6c7ad3bffdeaa95a72f0ea12499fa3
+03/09/2025 11:13:54 PM: WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000029196C5B100>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/2f6c7ad3bffdeaa95a72f0ea12499fa3
+03/09/2025 11:16:47 PM: INFO: ====== WebDriver manager ======
+03/09/2025 11:16:49 PM: INFO: Get LATEST chromedriver version for google-chrome
+03/09/2025 11:16:49 PM: INFO: Get LATEST chromedriver version for google-chrome
+03/09/2025 11:16:49 PM: INFO: Driver [C:\Users\HP\.wdm\drivers\chromedriver\win64\134.0.6998.35\chromedriver-win32/chromedriver.exe] found in cache
+03/09/2025 11:16:51 PM: INFO: \U0001f4cc Test Started: Signup Page
+03/09/2025 11:16:55 PM: INFO: \u2705 Clicked Signup/Login
+03/09/2025 11:16:58 PM: ERROR: \u274c Element Not Found: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='id_gender1']"}
+  (Session info: chrome=134.0.6998.36); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x004ACED3+25523]
+	(No symbol) [0x004323B4]
+	(No symbol) [0x003006E3]
+	(No symbol) [0x00348B79]
+	(No symbol) [0x00348ECB]
+	(No symbol) [0x00391B32]
+	(No symbol) [0x0036D844]
+	(No symbol) [0x0038F273]
+	(No symbol) [0x0036D5F6]
+	(No symbol) [0x0033C55F]
+	(No symbol) [0x0033D8A4]
+	GetHandleVerifier [0x007B2713+3193843]
+	GetHandleVerifier [0x007C69E9+3276489]
+	GetHandleVerifier [0x007C0F0C+3253228]
+	GetHandleVerifier [0x0054B0C0+673184]
+	(No symbol) [0x0043B43D]
+	(No symbol) [0x00438568]
+	(No symbol) [0x00438709]
+	(No symbol) [0x0042AE90]
+	BaseThreadInitThunk [0x7596FCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x778682AE+286]
+	RtlGetAppContainerNamedObjectPath [0x7786827E+238]
+
+03/09/2025 11:16:58 PM: INFO: \U0001f4f8 Screenshot Saved: C:\Users\HP\PycharmProjects\automationexercise\screenshots\NoSuchElement_2025-03-09_23-16-58.png
+03/09/2025 11:17:01 PM: INFO: \U0001f4cc Test Completed: Signup Page
+03/09/2025 11:17:05 PM: WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020E943FFEE0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/f19f43e7681ce504072a2f6dff8311df
+03/09/2025 11:17:09 PM: WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020E943FFD60>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/f19f43e7681ce504072a2f6dff8311df
+03/09/2025 11:17:13 PM: WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020E943FFC70>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/f19f43e7681ce504072a2f6dff8311df
+03/09/2025 11:18:12 PM: INFO: ====== WebDriver manager ======
+03/09/2025 11:18:14 PM: INFO: Get LATEST chromedriver version for google-chrome
+03/09/2025 11:18:14 PM: INFO: Get LATEST chromedriver version for google-chrome
+03/09/2025 11:18:14 PM: INFO: Driver [C:\Users\HP\.wdm\drivers\chromedriver\win64\134.0.6998.35\chromedriver-win32/chromedriver.exe] found in cache
+03/09/2025 11:18:16 PM: INFO: ***** Test_002_LoginPage Started *****
+03/09/2025 11:18:19 PM: INFO: ***** User clicked Signup\Login button ***** 
+03/09/2025 11:18:20 PM: INFO: ***** User Entered Email ID ***** 
+03/09/2025 11:18:20 PM: INFO: ***** User Entered Password  ***** 
+03/09/2025 11:18:21 PM: INFO: ***** User clicked Login Button
+03/09/2025 11:19:06 PM: INFO: ====== WebDriver manager ======
+03/09/2025 11:19:07 PM: INFO: Get LATEST chromedriver version for google-chrome
+03/09/2025 11:19:08 PM: INFO: Get LATEST chromedriver version for google-chrome
+03/09/2025 11:19:08 PM: INFO: Driver [C:\Users\HP\.wdm\drivers\chromedriver\win64\134.0.6998.35\chromedriver-win32/chromedriver.exe] found in cache
+03/09/2025 11:19:09 PM: INFO: ***** Test_002_LoginPage Started *****
+03/09/2025 11:19:13 PM: INFO: ***** User clicked Signup\Login button ***** 
+03/09/2025 11:19:14 PM: INFO: ***** User Entered Email ID ***** 
+03/09/2025 11:19:15 PM: INFO: ***** User Entered Password  ***** 
+03/09/2025 11:19:15 PM: INFO: ***** User clicked Login Button
+03/09/2025 11:21:25 PM: INFO: ====== WebDriver manager ======
+03/09/2025 11:21:27 PM: INFO: Get LATEST chromedriver version for google-chrome
+03/09/2025 11:21:27 PM: INFO: Get LATEST chromedriver version for google-chrome
+03/09/2025 11:21:27 PM: INFO: Driver [C:\Users\HP\.wdm\drivers\chromedriver\win64\134.0.6998.35\chromedriver-win32/chromedriver.exe] found in cache
+03/09/2025 11:21:29 PM: INFO: ***** Test_002_LoginPage Started *****
+03/09/2025 11:21:32 PM: INFO: ***** User clicked Signup\Login button ***** 
+03/09/2025 11:21:33 PM: INFO: ***** User Entered Email ID ***** 
+03/09/2025 11:21:34 PM: INFO: ***** User Entered Password  ***** 
+03/09/2025 11:21:34 PM: INFO: ***** User clicked Login Button
+03/09/2025 11:36:22 PM: INFO: ====== WebDriver manager ======
+03/09/2025 11:36:23 PM: INFO: Get LATEST chromedriver version for google-chrome
+03/09/2025 11:36:24 PM: INFO: Get LATEST chromedriver version for google-chrome
+03/09/2025 11:36:24 PM: INFO: Driver [C:\Users\HP\.wdm\drivers\chromedriver\win64\134.0.6998.35\chromedriver-win32/chromedriver.exe] found in cache
+03/09/2025 11:36:26 PM: INFO: ***** Test_002_LoginPage Started *****
+03/09/2025 11:36:29 PM: INFO: ***** User clicked Signup\Login button ***** 
+03/09/2025 11:36:30 PM: INFO: ***** User Entered Email ID ***** 
+03/09/2025 11:36:30 PM: INFO: ***** User Entered Password  ***** 
+03/09/2025 11:36:31 PM: INFO: ***** User clicked Login Button
+03/09/2025 11:36:33 PM: ERROR: \u274c Account Creation Failed
+03/09/2025 11:36:33 PM: INFO: \U0001f4f8 Screenshot Saved: C:\Users\HP\PycharmProjects\automationexercise\screenshots\AccountCreationFailed_2025-03-09_23-36-33.png
+03/09/2025 11:36:36 PM: INFO: \U0001f4cc Test Completed: Signup Page
+03/09/2025 11:36:40 PM: WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000203EDF88C10>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/e5dd19c4351ebf6ec57fd180fdd037e3
+03/09/2025 11:36:44 PM: WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000203EDF88AC0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/e5dd19c4351ebf6ec57fd180fdd037e3
+03/09/2025 11:36:48 PM: WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000203EDF88910>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/e5dd19c4351ebf6ec57fd180fdd037e3
+03/10/2025 09:14:59 AM: INFO: ====== WebDriver manager ======
+03/10/2025 09:15:03 AM: INFO: Get LATEST chromedriver version for google-chrome
+03/10/2025 09:15:03 AM: INFO: Get LATEST chromedriver version for google-chrome
+03/10/2025 09:15:03 AM: INFO: Get LATEST chromedriver version for google-chrome
+03/10/2025 09:15:03 AM: INFO: WebDriver version 134.0.6998.35 selected
+03/10/2025 09:15:03 AM: INFO: Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/134.0.6998.35/win32/chromedriver-win32.zip
+03/10/2025 09:15:03 AM: INFO: About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/134.0.6998.35/win32/chromedriver-win32.zip
+03/10/2025 09:15:03 AM: INFO: Driver downloading response is 200
+03/10/2025 09:15:06 AM: INFO: Get LATEST chromedriver version for google-chrome
+03/10/2025 09:15:06 AM: INFO: Driver has been saved in cache [C:\Users\HP\.wdm\drivers\chromedriver\win64\134.0.6998.35]
+03/10/2025 09:15:08 AM: INFO: ***** Test_002_LoginPage Started *****
+03/10/2025 09:15:12 AM: INFO: ***** User clicked Signup/Login button ***** 
+03/10/2025 09:15:14 AM: INFO: ***** User Entered Email ID ***** 
+03/10/2025 09:15:14 AM: INFO: ***** User Entered Password ***** 
+03/10/2025 09:15:14 AM: INFO: ***** User clicked Login Button ***** 
+03/10/2025 09:15:17 AM: ERROR: \u274c Account Creation Failed
+03/10/2025 09:15:17 AM: INFO: \U0001f4f8 Screenshot Saved: C:\Users\HP\PycharmProjects\automationexercise\screenshots\AccountCreationFailed_2025-03-10_09-15-17.png
+03/10/2025 09:15:24 AM: WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F33CD2B100>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/2edd98ed4e83193d060821d8babf48b3
+03/10/2025 09:15:28 AM: WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F33DC17EB0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/2edd98ed4e83193d060821d8babf48b3
+03/10/2025 09:15:32 AM: WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F33DC17DC0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/2edd98ed4e83193d060821d8babf48b3
+03/10/2025 09:17:01 AM: INFO: ====== WebDriver manager ======
+03/10/2025 09:17:02 AM: INFO: Get LATEST chromedriver version for google-chrome
+03/10/2025 09:17:02 AM: INFO: Get LATEST chromedriver version for google-chrome
+03/10/2025 09:17:02 AM: INFO: Driver [C:\Users\HP\.wdm\drivers\chromedriver\win64\134.0.6998.35\chromedriver-win32/chromedriver.exe] found in cache
+03/10/2025 09:17:04 AM: INFO: ***** Test_002_LoginPage Started *****
+03/10/2025 09:17:08 AM: INFO: ***** User clicked Signup\Login button ***** 
+03/10/2025 09:17:09 AM: INFO: ***** User Entered Email ID ***** 
+03/10/2025 09:17:10 AM: INFO: ***** User Entered Password  ***** 
+03/10/2025 09:17:10 AM: INFO: ***** User clicked Login Button
+03/10/2025 09:24:46 AM: INFO: ====== WebDriver manager ======
+03/10/2025 09:24:47 AM: INFO: Get LATEST chromedriver version for google-chrome
+03/10/2025 09:24:47 AM: INFO: Get LATEST chromedriver version for google-chrome
+03/10/2025 09:24:47 AM: INFO: Driver [C:\Users\HP\.wdm\drivers\chromedriver\win64\134.0.6998.35\chromedriver-win32/chromedriver.exe] found in cache
+03/10/2025 09:24:49 AM: INFO: \U0001f4cc Test Started: Signup Page
+03/10/2025 09:24:53 AM: INFO: \u2705 Clicked Signup/Login
+03/10/2025 09:24:56 AM: ERROR: \u274c Element Not Found: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='id_gender1']"}
+  (Session info: chrome=134.0.6998.36); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00DFCED3+25523]
+	(No symbol) [0x00D823B4]
+	(No symbol) [0x00C506E3]
+	(No symbol) [0x00C98B79]
+	(No symbol) [0x00C98ECB]
+	(No symbol) [0x00CE1B32]
+	(No symbol) [0x00CBD844]
+	(No symbol) [0x00CDF273]
+	(No symbol) [0x00CBD5F6]
+	(No symbol) [0x00C8C55F]
+	(No symbol) [0x00C8D8A4]
+	GetHandleVerifier [0x01102713+3193843]
+	GetHandleVerifier [0x011169E9+3276489]
+	GetHandleVerifier [0x01110F0C+3253228]
+	GetHandleVerifier [0x00E9B0C0+673184]
+	(No symbol) [0x00D8B43D]
+	(No symbol) [0x00D88568]
+	(No symbol) [0x00D88709]
+	(No symbol) [0x00D7AE90]
+	BaseThreadInitThunk [0x7596FCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x778682AE+286]
+	RtlGetAppContainerNamedObjectPath [0x7786827E+238]
+
+03/10/2025 09:24:56 AM: INFO: \U0001f4f8 Screenshot Saved: C:\Users\HP\PycharmProjects\automationexercise\screenshots\NoSuchElement_2025-03-10_09-24-56.png
+03/10/2025 09:24:59 AM: INFO: \U0001f4cc Test Completed: Signup Page
+03/10/2025 09:25:03 AM: WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C289525C10>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/bb2b73d3f6342c343bc5e9c566c9464a
+03/10/2025 09:25:07 AM: WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C2895251C0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/bb2b73d3f6342c343bc5e9c566c9464a
+03/10/2025 09:25:11 AM: WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C289525190>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/bb2b73d3f6342c343bc5e9c566c9464a
+03/10/2025 09:26:52 AM: INFO: ====== WebDriver manager ======
+03/10/2025 09:26:54 AM: INFO: Get LATEST chromedriver version for google-chrome
+03/10/2025 09:26:54 AM: INFO: Get LATEST chromedriver version for google-chrome
+03/10/2025 09:26:54 AM: INFO: Driver [C:\Users\HP\.wdm\drivers\chromedriver\win64\134.0.6998.35\chromedriver-win32/chromedriver.exe] found in cache
+03/10/2025 09:26:56 AM: INFO: \U0001f4cc Test Started: Signup Page
+03/10/2025 09:27:02 AM: INFO: \u2705 Clicked Signup/Login
+03/10/2025 09:27:08 AM: INFO: \u2705 Clicked Create Account
+03/10/2025 09:27:08 AM: INFO: \u2705 Account Created Successfully
+03/10/2025 09:27:10 AM: INFO: \U0001f4cc Test Completed: Signup Page
+03/10/2025 09:27:14 AM: WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000017B5525AAF0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/bd02fabc1ea9d2b1825bf9d8efc8ec40
+03/10/2025 09:27:18 AM: WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000017B5525AF10>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/bd02fabc1ea9d2b1825bf9d8efc8ec40
+03/10/2025 09:27:23 AM: WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000017B5532B0D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/bd02fabc1ea9d2b1825bf9d8efc8ec40
+03/10/2025 09:28:37 AM: INFO: ====== WebDriver manager ======
+03/10/2025 09:28:39 AM: INFO: Get LATEST chromedriver version for google-chrome
+03/10/2025 09:28:39 AM: INFO: Get LATEST chromedriver version for google-chrome
+03/10/2025 09:28:39 AM: INFO: Driver [C:\Users\HP\.wdm\drivers\chromedriver\win64\134.0.6998.35\chromedriver-win32/chromedriver.exe] found in cache
+03/10/2025 09:28:41 AM: INFO: ***** Test_002_LoginPage Started *****
+03/10/2025 09:28:44 AM: INFO: ***** User clicked Signup\Login button ***** 
+03/10/2025 09:28:45 AM: INFO: ***** User Entered Email ID ***** 
+03/10/2025 09:28:45 AM: INFO: ***** User Entered Password  ***** 
+03/10/2025 09:28:46 AM: INFO: ***** User clicked Login Button
+03/10/2025 09:34:53 AM: INFO: ====== WebDriver manager ======
+03/10/2025 09:34:55 AM: INFO: Get LATEST chromedriver version for google-chrome
+03/10/2025 09:34:55 AM: INFO: Get LATEST chromedriver version for google-chrome
+03/10/2025 09:34:55 AM: INFO: Driver [C:\Users\HP\.wdm\drivers\chromedriver\win64\134.0.6998.35\chromedriver-win32/chromedriver.exe] found in cache
+03/10/2025 09:34:57 AM: INFO: ***** Loginpage DDT Started *****
+03/10/2025 09:35:03 AM: INFO: \U0001f539 Running Test: Email = 5jd8i@indigobook.com, Password = IeDpGLlXr9l9sAI, Expected = Valid
+03/10/2025 09:35:07 AM: ERROR: \u274c Login should have passed but failed!
+03/10/2025 07:01:50 PM: INFO: ====== WebDriver manager ======
+03/10/2025 07:01:51 PM: INFO: Get LATEST chromedriver version for google-chrome
+03/10/2025 07:01:52 PM: INFO: Get LATEST chromedriver version for google-chrome
+03/10/2025 07:01:52 PM: INFO: Driver [C:\Users\HP\.wdm\drivers\chromedriver\win64\134.0.6998.35\chromedriver-win32/chromedriver.exe] found in cache
+03/10/2025 07:01:54 PM: INFO: ***** Loginpage DDT Started *****
+03/10/2025 07:04:04 PM: INFO: ====== WebDriver manager ======
+03/10/2025 07:04:06 PM: INFO: Get LATEST chromedriver version for google-chrome
+03/10/2025 07:04:06 PM: INFO: Get LATEST chromedriver version for google-chrome
+03/10/2025 07:04:06 PM: INFO: Driver [C:\Users\HP\.wdm\drivers\chromedriver\win64\134.0.6998.35\chromedriver-win32/chromedriver.exe] found in cache
+03/10/2025 07:04:08 PM: INFO: ***** Loginpage DDT Started *****
+03/10/2025 07:04:16 PM: INFO: Logged in with Email5jd8i@indigobook.com | Password IeDpGLlXr9l9sAI
+03/10/2025 07:04:18 PM: INFO: Logged Out Successfully
+03/10/2025 07:04:20 PM: INFO: Logged in with Emailpavanoltraining@gmail.com | Password test
+03/11/2025 08:29:59 PM: INFO: ====== WebDriver manager ======
+03/11/2025 08:30:01 PM: INFO: Get LATEST chromedriver version for google-chrome
+03/11/2025 08:30:01 PM: INFO: Get LATEST chromedriver version for google-chrome
+03/11/2025 08:30:01 PM: INFO: There is no [win64] chromedriver "134.0.6998.88" for browser google-chrome "134.0.6998" in cache
+03/11/2025 08:30:01 PM: INFO: Get LATEST chromedriver version for google-chrome
+03/11/2025 08:30:02 PM: INFO: WebDriver version 134.0.6998.88 selected
+03/11/2025 08:30:02 PM: INFO: Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/134.0.6998.88/win32/chromedriver-win32.zip
+03/11/2025 08:30:02 PM: INFO: About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/134.0.6998.88/win32/chromedriver-win32.zip
+03/11/2025 08:30:02 PM: INFO: Driver downloading response is 200
+03/11/2025 08:30:03 PM: INFO: Get LATEST chromedriver version for google-chrome
+03/11/2025 08:30:03 PM: INFO: Driver has been saved in cache [C:\Users\HP\.wdm\drivers\chromedriver\win64\134.0.6998.88]
+03/11/2025 08:30:08 PM: INFO: ***** Loginpage DDT Started *****
+03/11/2025 08:30:11 PM: INFO: \U0001f539 Running Test: Row 2
+03/11/2025 08:30:15 PM: INFO: \U0001f50d Trying to log in with: 5jd8i@indigobook.com | IeDpGLlXr9l9sAI
+03/12/2025 08:03:29 PM: INFO: ====== WebDriver manager ======
+03/12/2025 08:03:34 PM: INFO: Get LATEST chromedriver version for google-chrome
+03/12/2025 08:03:35 PM: INFO: Get LATEST chromedriver version for google-chrome
+03/12/2025 08:03:35 PM: INFO: Get LATEST chromedriver version for google-chrome
+03/12/2025 08:03:35 PM: INFO: WebDriver version 134.0.6998.88 selected
+03/12/2025 08:03:35 PM: INFO: Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/134.0.6998.88/win32/chromedriver-win32.zip
+03/12/2025 08:03:35 PM: INFO: About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/134.0.6998.88/win32/chromedriver-win32.zip
+03/12/2025 08:03:35 PM: INFO: Driver downloading response is 200
+03/12/2025 08:03:37 PM: INFO: Get LATEST chromedriver version for google-chrome
+03/12/2025 08:03:37 PM: INFO: Driver has been saved in cache [C:\Users\HP\.wdm\drivers\chromedriver\win64\134.0.6998.88]
+03/12/2025 08:03:44 PM: INFO: ***** Test_002_LoginPage Started *****
+03/12/2025 08:03:48 PM: INFO: ***** User clicked Signup\Login button ***** 
+03/12/2025 08:03:50 PM: INFO: ***** User Entered Email ID ***** 
+03/12/2025 08:03:50 PM: INFO: ***** User Entered Password  ***** 
+03/12/2025 08:03:50 PM: INFO: ***** User clicked Login Button
+03/12/2025 08:57:18 PM: INFO: ====== WebDriver manager ======
+03/12/2025 08:57:21 PM: INFO: Get LATEST chromedriver version for google-chrome
+03/12/2025 08:57:22 PM: INFO: Get LATEST chromedriver version for google-chrome
+03/12/2025 08:57:26 PM: INFO: Driver [C:\Users\HP\.wdm\drivers\chromedriver\win64\134.0.6998.88\chromedriver-win32/chromedriver.exe] found in cache
+03/12/2025 08:57:28 PM: INFO: \U0001f4cc Test Started: Signup Page
+03/12/2025 08:57:35 PM: INFO: \u2705 Clicked Signup/Login
+03/12/2025 08:57:37 PM: ERROR: \u274c Element Not Found: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='id_gender1']"}
+  (Session info: chrome=134.0.6998.36); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00DEB5A3+24387]
+	(No symbol) [0x00D75904]
+	(No symbol) [0x00C50753]
+	(No symbol) [0x00C98BA9]
+	(No symbol) [0x00C98EFB]
+	(No symbol) [0x00CE19C2]
+	(No symbol) [0x00CBD894]
+	(No symbol) [0x00CDF138]
+	(No symbol) [0x00CBD646]
+	(No symbol) [0x00C8C59F]
+	(No symbol) [0x00C8D8E4]
+	GetHandleVerifier [0x010ED883+3179043]
+	GetHandleVerifier [0x01106CF9+3282585]
+	GetHandleVerifier [0x0110167C+3260444]
+	GetHandleVerifier [0x00E84330+650448]
+	(No symbol) [0x00D7ED0D]
+	(No symbol) [0x00D7BAF8]
+	(No symbol) [0x00D7BC99]
+	(No symbol) [0x00D6E530]
+	BaseThreadInitThunk [0x75B1FCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x77A382AE+286]
+	RtlGetAppContainerNamedObjectPath [0x77A3827E+238]
+
+03/12/2025 08:57:37 PM: INFO: \U0001f4f8 Screenshot Saved: C:\Users\HP\PycharmProjects\automationexercise\screenshots\NoSuchElement_2025-03-12_20-57-37.png
+03/12/2025 08:57:40 PM: INFO: \U0001f4cc Test Completed: Signup Page
+03/12/2025 08:57:44 PM: WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001AE49DD53A0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/6fc9f14568f1763a3b36953e4b17ca54
+03/12/2025 08:57:48 PM: WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001AE49DD5550>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/6fc9f14568f1763a3b36953e4b17ca54
+03/12/2025 08:57:52 PM: WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001AE49DD5850>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/6fc9f14568f1763a3b36953e4b17ca54
+03/12/2025 08:58:00 PM: INFO: ====== WebDriver manager ======
+03/12/2025 08:58:02 PM: INFO: Get LATEST chromedriver version for google-chrome
+03/12/2025 08:58:02 PM: INFO: Get LATEST chromedriver version for google-chrome
+03/12/2025 08:58:02 PM: INFO: Driver [C:\Users\HP\.wdm\drivers\chromedriver\win64\134.0.6998.88\chromedriver-win32/chromedriver.exe] found in cache
+03/12/2025 08:58:04 PM: INFO: ***** Test_002_LoginPage Started *****
+03/12/2025 08:58:08 PM: INFO: ***** User clicked Signup\Login button ***** 
+03/12/2025 08:58:09 PM: INFO: ***** User Entered Email ID ***** 
+03/12/2025 08:58:10 PM: INFO: ***** User Entered Password  ***** 
+03/12/2025 08:58:10 PM: INFO: ***** User clicked Login Button
+03/12/2025 08:58:16 PM: INFO: ====== WebDriver manager ======
+03/12/2025 08:58:18 PM: INFO: Get LATEST chromedriver version for google-chrome
+03/12/2025 08:58:18 PM: INFO: Get LATEST chromedriver version for google-chrome
+03/12/2025 08:58:18 PM: INFO: Driver [C:\Users\HP\.wdm\drivers\chromedriver\win64\134.0.6998.88\chromedriver-win32/chromedriver.exe] found in cache
+03/12/2025 08:58:20 PM: INFO: ***** Loginpage DDT Started *****
+03/12/2025 08:58:24 PM: INFO: \U0001f539 Running Test: Row 2
+03/12/2025 08:58:31 PM: INFO: \U0001f50d Trying to log in with: 5jd8i@indigobook.com | IeDpGLlXr9l9sAI
+03/12/2025 09:00:00 PM: INFO: ====== WebDriver manager ======
+03/12/2025 09:00:02 PM: INFO: Get LATEST chromedriver version for google-chrome
+03/12/2025 09:00:02 PM: INFO: Get LATEST chromedriver version for google-chrome
+03/12/2025 09:00:02 PM: INFO: Driver [C:\Users\HP\.wdm\drivers\chromedriver\win64\134.0.6998.88\chromedriver-win32/chromedriver.exe] found in cache
+03/12/2025 09:00:04 PM: INFO: \U0001f4cc Test Started: Signup Page
+03/12/2025 09:00:10 PM: INFO: \u2705 Clicked Signup/Login
+03/12/2025 09:00:18 PM: INFO: \u2705 Clicked Create Account
+03/12/2025 09:00:19 PM: INFO: \u2705 Account Created Successfully
+03/12/2025 09:00:21 PM: INFO: \U0001f4cc Test Completed: Signup Page
+03/12/2025 09:00:25 PM: WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000231494C3910>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/920f05c06e69aad2db5b1454817ea367
+03/12/2025 09:00:29 PM: WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000231494C3B80>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/920f05c06e69aad2db5b1454817ea367
+03/12/2025 09:00:33 PM: WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000231494C3D90>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/920f05c06e69aad2db5b1454817ea367
+03/12/2025 09:00:41 PM: INFO: ====== WebDriver manager ======
+03/12/2025 09:00:43 PM: INFO: Get LATEST chromedriver version for google-chrome
+03/12/2025 09:00:44 PM: INFO: Get LATEST chromedriver version for google-chrome
+03/12/2025 09:00:44 PM: INFO: Driver [C:\Users\HP\.wdm\drivers\chromedriver\win64\134.0.6998.88\chromedriver-win32/chromedriver.exe] found in cache
+03/12/2025 09:00:45 PM: INFO: ***** Test_002_LoginPage Started *****
+03/12/2025 09:00:50 PM: INFO: ***** User clicked Signup\Login button ***** 
+03/12/2025 09:00:52 PM: INFO: ***** User Entered Email ID ***** 
+03/12/2025 09:00:52 PM: INFO: ***** User Entered Password  ***** 
+03/12/2025 09:00:52 PM: INFO: ***** User clicked Login Button
+03/12/2025 09:00:57 PM: INFO: ====== WebDriver manager ======
+03/12/2025 09:00:59 PM: INFO: Get LATEST chromedriver version for google-chrome
+03/12/2025 09:00:59 PM: INFO: Get LATEST chromedriver version for google-chrome
+03/12/2025 09:00:59 PM: INFO: Driver [C:\Users\HP\.wdm\drivers\chromedriver\win64\134.0.6998.88\chromedriver-win32/chromedriver.exe] found in cache
+03/12/2025 09:01:01 PM: INFO: ***** Loginpage DDT Started *****
+03/12/2025 09:01:04 PM: INFO: \U0001f539 Running Test: Row 2
+03/12/2025 09:01:08 PM: INFO: \U0001f50d Trying to log in with: 5jd8i@indigobook.com | IeDpGLlXr9l9sAI
